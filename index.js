@@ -1,3 +1,2 @@
-console.log((sccore));
-
 var score;
+score = 80;
