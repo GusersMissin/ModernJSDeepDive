@@ -1,42 +1,32 @@
-//Possible name
-var person, $elem, _name, first_name, vali;
+var sum = 10 + 20;
+console.log(sum);
+/* Not 10 + 20 is 30 */
 
-//not recommend
-var 이름,なまえ;
-
-//Impossible name
-var first-name; // SyntaxError: Unexcepted token -
-var 1st; // SyntaxError: Invalid or unexpected token (start from number)
-var this; // SyntaxError: Unexpected token this
-
-//Not Same
-var firstname;
-var firstName;
-var FIRSTNAME;
-
-//Good variable
-var x = 3;
 var score = 100;
+console.log(score);
 
-//Not Good variable
-var d; //Not Good - Need more comment
+var score = 50 + 50;
+console.log(score); // not 50 + 50
 
-var elapsedTimeInDays; //OK
+/*
+// 리터럴 표현식
+10
+'Hello'
 
-/* Naming Convention */
-//camelCase
-var firstName;
+// 식별자 표현식
+sum
+person.name
+arr[1]
 
-//snake_case
-var first_name;
+// 연산자 표현식
+10 + 20
+sum = 10
+sum !== 10
 
-//PascalCase
-var FirstName;
+// 함수/메소드 호출 표현식
+square()
+perison.getName()
+*/
 
-//typeHungarianCase
-var strFirstName; //type + identifier
-var $elem = document.getElementById('myId'); // DOM node
-var observable$ = fromEvent(document, 'click'); // RxJs
-
-/* ususally use camelCase for variable or function */
-/* PascalCase for ClassName */
+var x = 1 + 2;
+console.log(x + 3);
