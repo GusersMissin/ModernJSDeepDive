@@ -1,6 +1,5 @@
-console.log(score);
+const foo = 10;
+console.log(foo);
 
-var score;
-score = 80;
-
-console.log(score);
+foo = 100;
+console.log(foo);
