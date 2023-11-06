@@ -1,11 +1,14 @@
-//Variable Statement
-var x;
+function foo() {
+    return
+        {}
+    // ASI -> return; {};
+    // Developer expect -> return {};
+}
 
-//Assignment Statement
-x = 5;
+console.log(foo());
 
-//Function Statement
-if (x > 1) { console.log(x); }
-
-//Loop Statement
-for (var i = 0; i < 2; i ++) { console.log(i); }
+var bar = function() {}
+(function() {})();
+// ASI -> var bar = function() {} (function() {})();
+// Developer expect ->> var bar = function () {}; (function() {})();
+// TypeError:(intermediate value)(...) is not a function
