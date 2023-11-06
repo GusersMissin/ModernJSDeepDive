@@ -1,32 +1,11 @@
-var sum = 10 + 20;
-console.log(sum);
-/* Not 10 + 20 is 30 */
+//Variable Statement
+var x;
 
-var score = 100;
-console.log(score);
+//Assignment Statement
+x = 5;
 
-var score = 50 + 50;
-console.log(score); // not 50 + 50
+//Function Statement
+if (x > 1) { console.log(x); }
 
-/*
-// 리터럴 표현식
-10
-'Hello'
-
-// 식별자 표현식
-sum
-person.name
-arr[1]
-
-// 연산자 표현식
-10 + 20
-sum = 10
-sum !== 10
-
-// 함수/메소드 호출 표현식
-square()
-perison.getName()
-*/
-
-var x = 1 + 2;
-console.log(x + 3);
+//Loop Statement
+for (var i = 0; i < 2; i ++) { console.log(i); }
