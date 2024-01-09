@@ -1,30 +1,19 @@
-//implicit coercion
-console.log(5==5);
-console.log(5=='5');
+//Ternary Conditional Operator
+var score = 60;
+var result = score >= 60 ? 'pass' : 'fail';
 
-console.log(5===5);
-//Don't change data type
-console.log(5==='5');
+console.log(result);
 
-console.log("--------------------");
+score = 20;
+result = score >= 60 ? 'pass' : 'fail';
 
-//NaN
-console.log(NaN == NaN);
-console.log(NaN === NaN);
+console.log(result);
 
-console.log("--------------------");
-
-console.log(Number.isNaN(NaN));
-console.log(Number.isNaN(10));
-console.log(Number.isNaN(undefined));
-console.log(Number.isNaN(undefined + 1));
-
-console.log("--------------------");
-
-console.log(0 === -0);
-console.log(0 == -0);
-
-console.log("--------------------");
-
-console.log(Object.is(-0, +0));
-console.log(Object.is(NaN, NaN));
+/*
+Same with
+if(score >= 60){
+    result = 'pass';
+} else {
+    result = 'fail';
+}
+*/
